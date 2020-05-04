@@ -21,4 +21,4 @@ get('https://swapi.dev/api/people/1')
 # Here's an OOP approach:
 
 swapi = StarWarsApi.new
-puts swapi.get_person(1)['name']
+puts swapi.get_person(1)
